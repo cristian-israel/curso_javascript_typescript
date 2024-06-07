@@ -1,0 +1,21 @@
+h1 {
+	border-width: 0.1rem;
+	border-style: solid;
+	border-color: black;
+}
+
+#fundo-azul {
+	background-color: blue;
+}
+
+#fundo-vermelho {
+	background-color: rgba(255, 0, 0, 0.508);
+}
+
+.texto-amarelo {
+	color: yellow;
+}
+
+.texto-verde {
+	color: green;
+}

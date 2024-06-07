@@ -1,0 +1,14 @@
+{
+  "name": "curso_javascript_typescript",
+  "version": "3.2.1",
+  "description": "Curso de JavaScript e TypeScript do básico ao avançado 2024",
+  "main": "app.js",
+  "scripts": {
+    "test": "app.js",
+    "build": "node build.js",
+    "start": "node --no-deprecation app.js"
+  },
+  "author": "Cristian Israel",
+  "license": "ISC",
+  "dependencies": {}
+}
