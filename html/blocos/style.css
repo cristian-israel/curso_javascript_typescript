@@ -1,0 +1,39 @@
+section {
+	display: flex;
+	height: 34rem;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+
+	background: #5f9ea0;
+
+	border-width: 2px;
+	border-style: ridge;
+	border-color: black;
+
+}
+
+div {
+	width: 120px;
+	height: 120px;
+
+	border-width: 2px;
+	border-style: ridge;
+	border-color: black;
+}
+
+.block-green {
+	background: palegreen;
+}
+
+.block-blue {
+	background: paleturquoise;
+}
+
+.block-yellow {
+	background: palegoldenrod;
+}
+
+.block-red {
+	background: lightcoral;
+}
