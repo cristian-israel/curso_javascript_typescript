@@ -1,0 +1,170 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.bg-image {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+
+	background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/cacfadb7-c017-4318-85e4-7f46da1cae88/6b27d791-2d75-4ed0-9387-a776827fbdf3/BR-pt-20240603-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.cabecalho {
+	display: flex;
+	position: relative;
+
+	/* padding-top: rem; */
+	padding-inline: 8rem;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+
+	-webkit-text-size-adjust: 100%;
+	font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+	color: white;
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 120rem;
+	height: 7.5rem;
+	margin: 0 auto -7.5rem auto;
+	position: relative;
+	z-index: 2;
+	background: linear-gradient(180deg,
+			rgba(0, 0, 0, 0.8000) 0.000%, rgba(0, 0, 0, 0.7889) 8.333%, rgba(0, 0, 0, 0.7556) 16.67%, rgba(0, 0, 0, 0.7000) 25.00%, rgba(0, 0, 0, 0.6222) 33.33%, rgba(0, 0, 0, 0.5222) 41.67%, rgba(0, 0, 0, 0.4000) 50.00%, rgba(0, 0, 0, 0.2778) 58.33%, rgba(0, 0, 0, 0.1778) 66.67%, rgba(0, 0, 0, 0.1000) 75.00%, rgba(0, 0, 0, 0.04444) 83.33%, rgba(0, 0, 0, 0.01111) 91.67%, rgba(0, 0, 0, 0.000) 100.0%);
+}
+
+.cab-left,
+.cab-rigth {
+	display: flex;
+	position: relative;
+}
+
+.cab-rigth {
+	gap: 1rem;
+}
+
+.netflix {
+	font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+	color: white;
+	box-sizing: border-box;
+}
+
+.netflix-svg {
+	overflow: hidden;
+	display: block;
+	width: 10rem;
+	height: 2.6rem;
+
+	fill: currentColor;
+	box-sizing: border-box;
+
+	color: rgb(229, 9, 20);
+}
+
+.netflix-txt {
+	overflow: hidden;
+	position: absolute;
+
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+}
+
+.idioma {
+	display: flex;
+	position: relative;
+	width: 144px;
+
+	padding: 0.4rem;
+	justify-content: space-evenly;
+	align-items: center;
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(120, 120, 120);
+	border-radius: 6px;
+	background-color: rgb(0, 0, 0);
+
+	color: rgb(255, 255, 255);
+
+}
+
+.idioma-select {
+	appearance: none;
+	background-color: transparent;
+	border-width: 0;
+	color: rgb(255, 255, 255);
+	font-size: 1rem;
+}
+
+select:focus {
+	outline: none;
+}
+
+option:focus {
+	outline: none;
+}
+
+/* Botão */
+.entrar {
+	appearance: none;
+	font: inherit;
+	text-decoration: none;
+	align-items: center;
+	box-sizing: border-box;
+	display: inline-flex;
+	justify-content: center;
+	letter-spacing: normal;
+	line-height: 1;
+	user-select: none;
+	font-weight: 600;
+	border: 0;
+	cursor: pointer;
+	position: relative;
+	font-size: 0.875rem;
+	padding: 0.25rem 1rem;
+	border-radius: 0.25rem;
+	background: rgb(229, 9, 20);
+	color: rgb(255, 255, 255);
+}
+
+main {
+	position: relative;
+	/* z-index: 2; */
+	top: 15%;
+	max-width: 600px;
+	padding: 20px;
+	border-radius: 10px;
+	color: white;
+
+    -webkit-text-size-adjust: 100%;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-self: center;
+    max-width: 36.5rem;
+}
+
+.default-ltr-cache-jmnaey{
+	font-size: 3.5rem;
+	font-weight: 900;
+}
