@@ -1,8 +1,5 @@
-Instrutor: Luiz Otávio Miranda
+# udemy_hora_de_codar-js
 
-Cores que gostei:
+https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/
 
-cadetblue: #5f9ea0
-palegreen:
-paleturquoise:
-palegoldenrod:
+Instrutor: Luiz Otávio Miranda, Tales Calogi Malaquias
